@@ -1,0 +1,72 @@
+
+.wrap {
+  max-width: 20rem;
+}
+.title{
+  display: flex;
+  color: rgb(80, 76, 80);
+  /*background-color: aqua;
+  
+ /* width: 20rem;*/
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+label {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(62, 62, 65);
+  margin-bottom: 0.5rem;
+  text-align: center;
+  letter-spacing: 3px;
+  display: flex;
+  /*background-color:aliceblue;
+  border-radius: 0.5rem;*/
+  width: 33rem;
+  margin-left: 25rem;
+
+}
+
+span {
+ 
+  font-size: 1rem;
+  font-weight: 700;
+  background-color:aliceblue;
+  color: rgb(170, 162, 170);
+  padding: 0.3rem 1.2rem;
+  color: rgb(56, 53, 56);
+  background-image: linear-gradient(180deg, rgba(36, 10, 29, 0.31) 0%, #7d4597 89.62%);
+  /*background-color:rgb(56, 56, 114);*/
+
+  //border: none;
+  border-radius: 0.5rem;
+  border: 0.09rem solid #4f4f4f;
+  cursor: pointer;
+  align-items: center;
+ }
+span:hover {
+  background-color:rgb(177, 14, 144);
+}
+
+input {
+  height: 1.4rem;
+  margin-left: 25rem;
+  width: 27.5rem;
+  border-radius:0.5rem;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  border: 0.09rem solid #4f4f4f;
+  margin-bottom: 1.5rem;
+  background-color:rgb(14, 14, 104);
+  color:aliceblue;
+
+}
+input:hover{
+  background-color:rgb(182, 180, 180);
+  border: 0.09rem solid #080808;
+}
+
